@@ -1,3 +1,5 @@
+# Iptables Essentials: общие правила и команды брандмауэра
+# https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands
 # become root
 sudo -i
 
