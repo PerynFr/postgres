@@ -29,3 +29,9 @@ iptables-save > /etc/iptables.rules
 
 # finish root session
 exit
+
+
+Да, все оказалось вообще тривиально: 
+firewall-cmd --add-port=5432/tcp --permanent
+Видимо, когда я делал через iptable, напутал что-то с ipадресом.
+Служба firewalld оказалась в этом плане более дружелюбной
